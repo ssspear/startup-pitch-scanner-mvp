@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/test", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost/pitch-scanner-mvp", {
+  useNewUrlParser: true
+});
 
 const db = mongoose.connection;
 
@@ -11,21 +13,22 @@ db.once("open", function() {
   console.log("mongoose connected successfully");
 });
 
-const itemSchema = mongoose.Schema({
-  quantity: Number,
-  description: String
+const wordSchema = mongoose.Schema({
+  category: String,
+  word: String,
+  replace: String
 });
 
-const Item = mongoose.model("Item", itemSchema);
+const Word = mongoose.model("Words", wordSchema);
 
 const selectAll = callback => {
-  Item.find({}, (err, items) => {
+  Word.find({}, (err, words) => {
     if (err) {
       callback(err, null);
     } else {
-      callback(null, items);
+      callback(null, words);
     }
   });
 };
 
-module.exports.selectAll = selectAll;
+module.exports = { selectAll, Word };

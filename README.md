@@ -27,6 +27,6 @@ $ npm run start
 
 ## Customer Quotes
 
-> "Wow, turns out I don't use the word disrupt enough! Not anymore thanks to this scanner ;)" - Scott Elder, Former Hack Reactor Grad, RIP
-> "This sounds great. You just need to npm run do it." - Mike Janes, Swolebraham Lincoln, Part-time Baby Daddy
-> "I needed more wizards and gurus on my team. This app really is the Uber for pitching." - Nick Todd Fred, Man with three first names but still wants more
+- "Wow, turns out I don't use the word disrupt enough! Not anymore thanks to this scanner ;)" - Scott Elder, Former Hack Reactor Grad, RIP
+- "This sounds great. You just need to npm run do it." - Mike Janes, Swolebraham Lincoln, Part-time Baby Daddy
+- "I needed more wizards and gurus on my team. This app really is the Uber for pitching." - Nick Todd Fred, Man with three first names but still wants more

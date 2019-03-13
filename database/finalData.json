@@ -1,0 +1,367 @@
+[
+  { "category": "DANGER ZONE", "word": "ai", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "airbnb", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "amazon", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "bandwidth", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "big data", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "bleeding edge",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "blockchain", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "break things",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "bubble", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "buzz", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "circle back", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "close the loop",
+    "replace": "OH COME ON"
+  },
+  {
+    "category": "DANGER ZONE",
+    "word": "critical mass",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "crushing it", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "curated", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "cutting edge",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "decacorn", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "disrupt", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "disruptive", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "facebook", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "first mover advantage",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "freemium", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "game changer",
+    "replace": "OH COME ON"
+  },
+  {
+    "category": "DANGER ZONE",
+    "word": "gamification",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "gen-z", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "google", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "growth hacking",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "guru", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "hair on fire",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "holy grail", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "influencer", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "innovative", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "innovator", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "instagram", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "ipo", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "iteration", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "killing it", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "launch party",
+    "replace": "OH COME ON"
+  },
+  {
+    "category": "DANGER ZONE",
+    "word": "lean startup",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "leverage", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "low hanging fruit",
+    "replace": "OH COME ON"
+  },
+  {
+    "category": "DANGER ZONE",
+    "word": "machine learning",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "millenials", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "mission critical",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "move fast", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "network effect",
+    "replace": "OH COME ON"
+  },
+  {
+    "category": "DANGER ZONE",
+    "word": "niche market",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "ninja", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "pants on fire",
+    "replace": "OH COME ON"
+  },
+  {
+    "category": "DANGER ZONE",
+    "word": "paradigm shift",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "pivot", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "ready to scale",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "rockstar", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "seamless", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "seamlessly", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "serial entrepreneur",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "stealth", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "sweat equity",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "sync", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "technology", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "termsheet", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "the cloud", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "thought leader",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "traction", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "twitter", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "uber", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "unicorn", "replace": "OH COME ON" },
+  {
+    "category": "DANGER ZONE",
+    "word": "vanity metrics",
+    "replace": "OH COME ON"
+  },
+  { "category": "DANGER ZONE", "word": "virality", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "visionary", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "win-win", "replace": "OH COME ON" },
+  { "category": "DANGER ZONE", "word": "wizard", "replace": "OH COME ON" },
+  { "category": "FINE", "word": "a/b testing", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "accelerator", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "analytics", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "assets", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "backing", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "beta", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "buyer", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "channels", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "crowdfunding",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "deck", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "early adopters",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "ecosystem", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "exit", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "hackathon", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "handshake", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "hockey stick",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "incubator", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "infographic", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "infrastructure",
+    "replace": "YOU CAN DO BETTER"
+  },
+  {
+    "category": "FINE",
+    "word": "internet of things",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "iot", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "learning curve",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "long tail", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "market penetration",
+    "replace": "YOU CAN DO BETTER"
+  },
+  {
+    "category": "FINE",
+    "word": "market validation",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "marketing", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "monetization",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "partnership", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "platform", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "product-market fit",
+    "replace": "YOU CAN DO BETTER"
+  },
+  {
+    "category": "FINE",
+    "word": "productivity",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "scalable", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "scale", "replace": "YOU CAN DO BETTER" },
+  { "category": "FINE", "word": "silo", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "social proof",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "stock", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "user experience",
+    "replace": "YOU CAN DO BETTER"
+  },
+  {
+    "category": "FINE",
+    "word": "value proposition",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "venture", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "FINE",
+    "word": "vesting period",
+    "replace": "YOU CAN DO BETTER"
+  },
+  { "category": "FINE", "word": "vr", "replace": "YOU CAN DO BETTER" },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "advisor",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "angel investor",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "bootstrapped",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "bootstrapping",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "burn rate",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "business plan",
+    "replace": "IF YOU MUST"
+  },
+  { "category": "MOSTLY HARMLESS", "word": "B2C", "replace": "IF YOU MUST" },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "churn rate",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "conversion",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "customer",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "entrepreneur",
+    "replace": "IF YOU MUST"
+  },
+  { "category": "MOSTLY HARMLESS", "word": "equity", "replace": "IF YOU MUST" },
+  { "category": "MOSTLY HARMLESS", "word": "focus", "replace": "IF YOU MUST" },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "founder",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "founders",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "funding",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "hypothesis",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "investor",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "metrics",
+    "replace": "IF YOU MUST"
+  },
+  { "category": "MOSTLY HARMLESS", "word": "mvp", "replace": "IF YOU MUST" },
+  { "category": "MOSTLY HARMLESS", "word": "pitch", "replace": "IF YOU MUST" },
+  { "category": "MOSTLY HARMLESS", "word": "runway", "replace": "IF YOU MUST" },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "seed round",
+    "replace": "IF YOU MUST"
+  },
+  {
+    "category": "MOSTLY HARMLESS",
+    "word": "series a",
+    "replace": "IF YOU MUST"
+  }
+]
