@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
 app.get("/words", (req, res) => {
   database.selectAll((err, data) => {
     if (err) {
+      console.log("error in get", err);
       res.sendStatus(500);
     } else {
       res.json(data);
