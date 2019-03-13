@@ -27,4 +27,4 @@ $ npm run start
 
 ## Customer Quote
 
-> "Wow, turns out I don't use the word disrupt enough! Not anymore thanks to this scanner ;)" - One happy customer
+> "Wow, turns out I don't use the word disrupt enough! Not anymore thanks to this scanner ;)" - Scott Edler, Former Hack Reactor Grad, RIP
