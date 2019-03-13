@@ -25,6 +25,8 @@ $ npm run start
 
 > "We're proud to release this pitch scanner to help startups get investment through crafting unique pitches, rather than leaning on typical jargon." - ssspear
 
-## Customer Quote
+## Customer Quotes
 
-> "Wow, turns out I don't use the word disrupt enough! Not anymore thanks to this scanner ;)" - Scott Edler, Former Hack Reactor Grad, RIP
+> "Wow, turns out I don't use the word disrupt enough! Not anymore thanks to this scanner ;)" - Scott Elder, Former Hack Reactor Grad, RIP
+> "This sounds great. You just need to npm run do it." - Mike Janes, Swolebraham Lincoln, Part-time Baby Daddy
+> "I needed more wizards and gurus on my team. This app really is the Uber for pitching." - Nick Todd Fred, Man with three first names but still wants more
