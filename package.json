@@ -1,0 +1,39 @@
+{
+  "name": "startup-pitch-scanner-mvp",
+  "version": "1.0.0",
+  "description": "This application will give you the perfect pitch in less time than a vesting period",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssspear/startup-pitch-scanner-mvp.git"
+  },
+  "keywords": [
+    "startup"
+  ],
+  "author": "ssspear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssspear/startup-pitch-scanner-mvp/issues"
+  },
+  "homepage": "https://github.com/ssspear/startup-pitch-scanner-mvp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
