@@ -9,7 +9,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       value: "",
-      status: "Let's see what's up"
+      status: ["Let's see what's up"]
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -18,7 +18,7 @@ class App extends React.Component {
   handleChange(event) {
     this.setState({
       value: event.target.value,
-      status: "Let's see what's up"
+      status: ["Let's see what's up"]
     });
     matchingWords = [];
     responses = [];
@@ -38,7 +38,9 @@ class App extends React.Component {
           }
         });
         display = matchingWords.map((item, i) => {
-          return item + " ===> " + responses[i];
+          let displayArray = [];
+          displayArray.push(item + "?! I mean " + responses[i]);
+          return displayArray;
         });
         this.setState({
           status: display
@@ -58,7 +60,9 @@ class App extends React.Component {
         <button type="submit" onClick={this.handleSubmit}>
           submit this ish
         </button>
-        <h1>{this.state.status}</h1>
+        {this.state.status.map((item, i) => (
+          <h1 key={i}>{item}</h1>
+        ))}
       </div>
     );
   }
