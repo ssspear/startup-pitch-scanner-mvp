@@ -3,6 +3,7 @@ import axios from "axios";
 
 let matchingWords = [];
 let responses = [];
+let newValue = [];
 let display;
 class App extends React.Component {
   constructor(props) {
@@ -22,10 +23,12 @@ class App extends React.Component {
     });
     matchingWords = [];
     responses = [];
+    newValue = [];
   }
 
   handleSubmit(event) {
     event.preventDefault();
+    let originalPitch = this.state.value;
     const pitch = this.state.value.toLowerCase();
 
     axios
@@ -35,8 +38,12 @@ class App extends React.Component {
           if (pitch.includes(item.word)) {
             matchingWords.push(item.word);
             responses.push(item.replace);
+            let regex = new RegExp(item.word, "gi");
+            originalPitch = originalPitch.replace(regex, item.replace);
           }
         });
+        newValue.push(originalPitch);
+        newValue = newValue[0];
         if (matchingWords.length) {
           display = matchingWords.map((item, i) => {
             let displayArray = [];
@@ -44,7 +51,8 @@ class App extends React.Component {
             return displayArray;
           });
           this.setState({
-            status: display
+            status: display,
+            value: newValue
           });
         } else {
           this.setState({
@@ -67,8 +75,9 @@ class App extends React.Component {
           Let's get rich
         </button>
         {this.state.status.map((item, i) => (
-          <h1 key={i}>{item}</h1>
+          <h3 key={i}>{item}</h3>
         ))}
+        <p>{this.state.value}</p>
       </div>
     );
   }
