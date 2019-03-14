@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import OutlinedTextFields from "./input.jsx";
 
 let matchingWords = [];
 let responses = [];
@@ -70,7 +71,7 @@ class App extends React.Component {
       <div>
         <h1>Now we're talkin'</h1>
         <p>Pitches get stitches:</p>
-        <textarea type="text" onChange={this.handleChange} />
+        <OutlinedTextFields onChange={this.handleChange} />
         <button type="submit" onClick={this.handleSubmit}>
           Let's get rich
         </button>

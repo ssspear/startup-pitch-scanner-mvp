@@ -22,11 +22,14 @@
   },
   "homepage": "https://github.com/ssspear/startup-pitch-scanner-mvp#readme",
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "classnames": "^2.2.6",
     "express": "^4.16.4",
     "mongoose": "^5.4.19",
     "path": "^0.12.7",
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
