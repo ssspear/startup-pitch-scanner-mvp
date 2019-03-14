@@ -37,14 +37,20 @@ class App extends React.Component {
             responses.push(item.replace);
           }
         });
-        display = matchingWords.map((item, i) => {
-          let displayArray = [];
-          displayArray.push(item + "?! I mean " + responses[i]);
-          return displayArray;
-        });
-        this.setState({
-          status: display
-        });
+        if (matchingWords.length) {
+          display = matchingWords.map((item, i) => {
+            let displayArray = [];
+            displayArray.push(item + "?! I mean " + responses[i]);
+            return displayArray;
+          });
+          this.setState({
+            status: display
+          });
+        } else {
+          this.setState({
+            status: ["WOW! Great job!"]
+          });
+        }
       })
       .catch(error => {
         console.log("error in axios get", error);
@@ -58,7 +64,7 @@ class App extends React.Component {
         <p>Pitches get stitches:</p>
         <textarea type="text" onChange={this.handleChange} />
         <button type="submit" onClick={this.handleSubmit}>
-          submit this ish
+          Let's get rich
         </button>
         {this.state.status.map((item, i) => (
           <h1 key={i}>{item}</h1>
