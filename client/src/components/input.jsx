@@ -27,11 +27,11 @@ function OutlinedTextFields(props) {
         required
         multiline
         fullWidth
+        margin="dense"
         id="outlined-multiline-flexible-required"
         label="Pitch goes here"
         rows="4"
         rowsMax="10"
-        margin="normal"
         variant="outlined"
         value={props.value}
         onChange={props.onChange}

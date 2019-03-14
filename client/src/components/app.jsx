@@ -11,11 +11,14 @@ let display;
 const overallStyles = {
   display: "flex",
   justifyContent: "center",
+  alignItems: "center",
   width: "80%"
 };
 
 const textStyles = {
-  fontFamily: "Roboto, Arial, sans-serif"
+  fontFamily: "Roboto, Arial, sans-serif",
+  textAlign: "center",
+  paddingTop: "20px"
 };
 
 class App extends React.Component {
@@ -23,7 +26,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       value: "",
-      status: ["Let's see what's up"]
+      status: [""]
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -32,7 +35,7 @@ class App extends React.Component {
   handleChange(event) {
     this.setState({
       value: event.target.value,
-      status: ["Let's see what's up"]
+      status: [""]
     });
     matchingWords = [];
     responses = [];
@@ -81,18 +84,21 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={textStyles}>Now we're talkin'</h1>
-        <p style={textStyles}>Pitches get stitches:</p>
+        <h1 style={textStyles}>Is your pitch worthy?</h1>
+        <p style={textStyles}>
+          This application will give you the perfect pitch in less time than a
+          vesting period:
+        </p>
         <OutlinedTextFields
           onChange={this.handleChange}
           style={overallStyles}
         />
         <SubmitButton onClick={this.handleSubmit} />
-        <p style={textStyles}>
+        <div style={textStyles}>
           {this.state.status.map((item, i) => (
             <h3 key={i}>{item}</h3>
           ))}
-        </p>
+        </div>
         <p style={textStyles}>{this.state.value}</p>
       </div>
     );

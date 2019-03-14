@@ -14,7 +14,8 @@ const styles = theme => ({
 
 const divStyles = {
   display: "flex",
-  justifyContent: "center"
+  justifyContent: "center",
+  paddingTop: "50px"
 };
 
 function SubmitButton(props) {
