@@ -1,6 +1,9 @@
 import React from "react";
 import axios from "axios";
 
+let matchingWords = [];
+let responses = [];
+let display;
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -14,8 +17,11 @@ class App extends React.Component {
 
   handleChange(event) {
     this.setState({
-      value: event.target.value
+      value: event.target.value,
+      status: "Let's see what's up"
     });
+    matchingWords = [];
+    responses = [];
   }
 
   handleSubmit(event) {
@@ -27,15 +33,15 @@ class App extends React.Component {
       .then(response => {
         response.data.forEach(item => {
           if (pitch.includes(item.word)) {
-            this.setState({
-              status: item.replace
-            });
+            matchingWords.push(item.word);
+            responses.push(item.replace);
           }
-          // if (!pitch.includes(item.word)) {
-          //   this.setState({
-          //     status: "You are GOOD!"
-          //   });
-          // }
+        });
+        display = matchingWords.map((item, i) => {
+          return item + " ===> " + responses[i];
+        });
+        this.setState({
+          status: display
         });
       })
       .catch(error => {
@@ -48,7 +54,7 @@ class App extends React.Component {
       <div>
         <h1>Now we're talkin'</h1>
         <p>Pitches get stitches:</p>
-        <input type="text" onChange={this.handleChange} />
+        <textarea type="text" onChange={this.handleChange} />
         <button type="submit" onClick={this.handleSubmit}>
           submit this ish
         </button>
