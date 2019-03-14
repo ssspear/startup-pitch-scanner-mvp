@@ -1,11 +1,23 @@
 import React from "react";
 import axios from "axios";
 import OutlinedTextFields from "./input.jsx";
+import SubmitButton from "./submitButton.jsx";
 
 let matchingWords = [];
 let responses = [];
 let newValue = [];
 let display;
+
+const overallStyles = {
+  display: "flex",
+  justifyContent: "center",
+  width: "80%"
+};
+
+const textStyles = {
+  fontFamily: "Roboto, Arial, sans-serif"
+};
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -69,16 +81,19 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Now we're talkin'</h1>
-        <p>Pitches get stitches:</p>
-        <OutlinedTextFields onChange={this.handleChange} />
-        <button type="submit" onClick={this.handleSubmit}>
-          Let's get rich
-        </button>
-        {this.state.status.map((item, i) => (
-          <h3 key={i}>{item}</h3>
-        ))}
-        <p>{this.state.value}</p>
+        <h1 style={textStyles}>Now we're talkin'</h1>
+        <p style={textStyles}>Pitches get stitches:</p>
+        <OutlinedTextFields
+          onChange={this.handleChange}
+          style={overallStyles}
+        />
+        <SubmitButton onClick={this.handleSubmit} />
+        <p style={textStyles}>
+          {this.state.status.map((item, i) => (
+            <h3 key={i}>{item}</h3>
+          ))}
+        </p>
+        <p style={textStyles}>{this.state.value}</p>
       </div>
     );
   }
