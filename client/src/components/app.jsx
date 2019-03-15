@@ -92,7 +92,7 @@ class App extends React.Component {
           display = matchingWords.map((item, i) => {
             let displayArray = [];
             if (i === matchingWords.length - 1) {
-              displayArray.push(`and ${item}!!!`);
+              displayArray.push(` ${item}!!!`);
             } else {
               displayArray.push(`${item}, `);
             }
@@ -117,6 +117,21 @@ class App extends React.Component {
   handleAddWord(event) {
     event.preventDefault();
     console.log("We're in add word");
+
+    let newEntry = {
+      category: "User Input",
+      word: this.state.userWord,
+      replace: this.state.userResponse
+    };
+
+    axios
+      .post("/words", newEntry)
+      .then(data => {
+        console.log("data in axios post", data);
+      })
+      .catch(err => {
+        console.log("error in axios post", err);
+      });
   }
 
   render() {
